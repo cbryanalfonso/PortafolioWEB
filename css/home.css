@@ -1,0 +1,9 @@
+body{
+    width: 50%;
+    height: 1000px;
+    background-image: url('../assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+}
+

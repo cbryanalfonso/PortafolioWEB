@@ -1,0 +1,44 @@
+#nav-background {
+    position: fixed;
+    width: 100%;
+    z-index: 9000;
+    /* background-color: green; */
+    top: 0;
+    box-shadow: 0px 5px 5px 0px rgb(135 135 135 / 75%);
+    -webkit-box-shadow: 0px 5px 5px 0px rgb(135 135 135 / 75%);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(135, 135, 135, 0.75);
+}
+#nav-container {
+    display: flex;
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    justify-content: space-between;
+    /* font-family: "Poppins", sans-serif; */
+    /* background-color: coral; */
+    /* align-items: center; */
+}
+.nav-transparent{
+   background-color: white;
+}
+.nav-icon {
+    display: none;
+    grid-gap: 5px;
+    grid-template-columns: auto;
+    margin-top: 10px;
+    padding: 17px 0;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.nav-links .dropdown:nth-child(2) #subMenuI .itemsOpcion .subitem:nth-child(1) a .rownav,
+.nav-links .dropdown:nth-child(2) #subMenuI .itemsOpcion .subitem:nth-child(2) a .rownav {
+    padding-top: 1vw;
+}
+
+.dropdown-content{
+    display: flex;
+    position: fixed;
+    gap: 30px;
+    list-style: none;
+}
